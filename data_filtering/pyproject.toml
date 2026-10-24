@@ -1,0 +1,28 @@
+[project]
+name = "llm-data-filtering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "en-core-web-sm",
+    "fasttext>=0.9.3",
+    "fire>=0.7.1",
+    "ipdb>=0.13.13",
+    "lemminflect>=0.2.3",
+    "nltk>=3.9.2",
+    "numpy<2.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.0",
+    "pattern>=0.0.1a0",
+    "pattern3>=3.0.0",
+    "pyahocorasick>=2.3.0",
+    "pytest>=9.0.2",
+    "regex>=2025.7.34",
+    "scikit-learn>=1.7.2",
+    "spacy>=3.8.11",
+    "transformers>=4.55.4",
+]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
